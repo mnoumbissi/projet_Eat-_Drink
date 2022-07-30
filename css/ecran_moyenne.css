@@ -1,0 +1,57 @@
+/* @media screen and (min-width:992px) {
+    .icone3{
+        display: none;
+    }
+       .ronder1{
+        background: #df2020;
+        border: 1px solid #df2020;
+        border-radius: 10px;
+        color: white;
+        position:absolute;
+        top: -0.5px;
+        bottom: auto;
+        left: auto;
+        right: 55px;
+    } 
+    .head{
+        display:block;
+       }
+       img{
+        width: 20px;
+        height: 20px;
+       }
+       .div1{
+       min-width: 992px;
+       flex-wrap: wrap;
+    }
+       .menu1{
+        width: 100%;
+        flex-wrap: wrap;
+    
+       }
+       .menu2{
+        width:50%;
+        flex-wrap: wrap;
+        padding: 0px 5px 2px 0px;
+      
+       }
+       .card{
+        width: 150%;
+        height: 300px;
+        align-items: center;
+        border-radius: 5px ;
+        margin: 0px;
+        padding: 5px;
+        border: 2px solid #df2020;
+    
+       }
+       .menu11{
+        max-width: 768px;
+        display: flex;
+        justify-content: space-between;
+     }
+       .div3{
+        display:block;
+       }
+    
+} */
