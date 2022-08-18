@@ -167,20 +167,17 @@ div img{
     height: 30px;
 }
 .menu1{
-    padding: 2px;
-    margin: 5px;
+    padding: 12px;
+    margin: 2px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
-.menu2{
-    margin: 15px;
-    padding: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .menu11{
-    margin: 5px;
+    margin: 15px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,11 +186,11 @@ div img{
     align-items: center;
     border-radius: 5px ;
     margin: 10px;
-    padding: 15px;
-    width: 30%;
-    height: 70%;
-    border-top: 1px solid #df2020;
-    border-left: 1px solid #df2020;
+    padding: 5px;
+    width: 20%;
+    height: 50%;
+    border: 1px solid #df2020;
+    /* border-left: 1px solid #df2020; */
 
 
 }

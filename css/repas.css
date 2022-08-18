@@ -1,0 +1,34 @@
+.menu{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px;
+}
+ header{
+    background-image: url('../images/bgrepas.jpeg');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350%;
+    padding: 5px;
+    margin: 5px;
+ }
+ .card{
+    align-items: center;
+    border-radius: 5px ;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    width: 95%;
+    height: 70%;
+    border: 1px solid #df2020;
+    /* border-left: 1px solid #df2020; */
+}
+.menu11{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

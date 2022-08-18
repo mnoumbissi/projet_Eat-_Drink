@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>repas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/repas.css"/>
     <link rel="stylesheet" href="css/petite_ecran.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css"/>
-
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
 </head>
 <body>
@@ -21,10 +21,10 @@
             </div>
             <div class="items">
               <ul>
-                <li><a href="#"> accueil</a></li>
-                <li><a href="#">repas</a></li>
-                <li><a href="#">panier</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="index.html"> accueil</a></li>
+                <li><a href="repas.html">repas</a></li>
+                <li><a href="panier.html">panier</a></li>
+                <li><a href="contact.html">contact</a></li>
               </ul>
             </div>
             <div class="icone">
@@ -37,17 +37,16 @@
             </div>
           </nav>
           <header>
-            <h1>repas</h1>
+            <h1 id="bg_repas">repas</h1>
          </header>
-         <main>
-         <div>
+         <div class="search">
              <form action="">
-                 
+                 <input type="text" placeholder="je cherche...">
              </form>
          </div>
-         </main>
-
-
+         <div class="menu" id="repa_card">
+           
+        </div>
          <footer>
             <div class="foot1">
               <div>
@@ -93,6 +92,6 @@
     </div>
 
 
-  
+    <script src="app/script.js"></script>
 </body>
 </html>
